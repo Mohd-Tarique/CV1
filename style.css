@@ -1,0 +1,93 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    /* border: 2px solid red; */
+    border-bottom: 3px solid gray;
+    background-color:  rgb(206, 175, 175);
+    padding: 20px 0px;
+    padding-left: 20px;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 87%;
+}
+
+.logo img {
+    height: 160px;
+    width: 160px;
+}
+
+.item {
+    font-size: 25px;
+}
+.item h1{
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+
+.container-1{
+    display: flex;
+    justify-content: center;
+}
+.container-2{
+    display: flex;
+    justify-content: center;
+}
+.box{
+    border: 2px solid grey;
+    margin: 20px;
+    height: 300px;
+    width: 400px;
+    background-color: rgb(206, 175, 175);
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    
+}
+
+.box h1{
+    font-size: 38px;
+}
+
+.education{
+    display: flex;
+    margin-top: 50px;
+    
+}
+
+.education p{
+    margin-left: 100px;
+}
+.education h3{
+    position: absolute;
+    left: 32px;
+}
+
+.A p{
+    margin-left: 169px;
+}
+
+.skill{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+}
+.skill ul li{
+    position: relative;
+    left: -90px;
+}
+.lang{
+    position: relative;
+    left: -125px;
+}
+.conc{
+    
+    font-size: 20px;
+}
